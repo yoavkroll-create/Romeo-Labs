@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install:*)",
+      "Bash(pdftoppm -v)",
+      "Bash(pdftotext \"/Users/yoav.kroll/Downloads/Romeo Scoping Framework OS \\(2\\).pdf\" -)",
+      "Bash(cd:*)",
+      "Bash(find /Users/yoav.kroll/Desktop/Projects -maxdepth 2 -type f -name *.md)",
+      "Bash(find '/Users/yoav.kroll/Desktop/Projects/Test Chair Repo ' -type f -name *.md)",
+      "Bash(cat:*)",
+      "Read(//tmp/**)",
+      "Bash(pdftotext \"/Users/yoav.kroll/Downloads/PRD – Romeo Operations Platform.pdf\" /tmp/romeo-prd.txt)",
+      "Bash(pdftotext \"/Users/yoav.kroll/Downloads/Prototype prompt Example.pdf\" /tmp/prototype-prompt.txt)",
+      "Bash(pdftotext \"/Users/yoav.kroll/Downloads/פרומט לאבבל.pdf\" /tmp/lovable-prompt.txt)"
+    ]
+  }
+}
